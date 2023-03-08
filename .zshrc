@@ -1,6 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export EDITOR="nvim"
+export PATH=$PATH:/usr/local/go/bin
+export GO11MODULE=on
+export GOROOT="/usr/local/go"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -113,3 +116,6 @@ alias kgsv="kubectl get svc"
 
 ## Tmux
 alias tns="tmux new -s x1"
+
+## Others
+alias code="/usr/local/vscode/bin/code"
