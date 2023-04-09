@@ -1,13 +1,18 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export EDITOR="nvim"
+
 export PATH=$PATH:/usr/local/go/bin
 export GO11MODULE=on
 export GOROOT="/usr/local/go"
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+export TF_VAR_token=$(cat ~/.secrets/.terraform-personal_access_token.txt)
+export KUBECONFIG="$HOME/.secrets/.lke-cluster-config.yaml"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export KUBECONFIG="/home/$HOME/.k8s-kubeconfig.yaml"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -118,4 +123,3 @@ alias kgsv="kubectl get svc"
 alias tns="tmux new -s x1"
 
 ## Others
-alias code="/usr/local/vscode/bin/code"
