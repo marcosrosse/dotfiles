@@ -2,11 +2,10 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export EDITOR="nvim"
 
-export PATH=$PATH:/usr/local/go/bin
-export GO11MODULE=on
-export GOROOT="/usr/local/go"
+export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+export GO11MODULE=on
 
 export TF_VAR_token=$(cat ~/.secrets/.terraform-personal_access_token.txt)
 export KUBECONFIG="$HOME/.secrets/.lke-cluster-config.yaml"
