@@ -3,3 +3,8 @@
 [lalt]>[lwin]
 [lalt]>[lctrl]
 [lctrl]>[lwin]
+[home]>[pup]
+[pup]>[home]
+[end]>[pdown]
+[pdown]>[end]
+[pdown]>[rctrl]
