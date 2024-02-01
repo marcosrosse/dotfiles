@@ -1,0 +1,5 @@
+[rwin]>[lalt]
+[rctrl]>[rwin]
+[lalt]>[lwin]
+[lalt]>[lctrl]
+[lctrl]>[lwin]
