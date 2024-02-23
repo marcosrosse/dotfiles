@@ -1,3 +1,4 @@
+[caps]>[escape][t&h500][caps]
 [rwin]>[lalt]
 [rctrl]>[rwin]
 [lalt]>[lwin]
